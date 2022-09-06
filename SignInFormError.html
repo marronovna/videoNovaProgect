@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="eng">
-<head>
+  <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="index.js"></script>
   </head>
   <body>
+    <form class="form_content_mrrn">
+      <button class="closing_cross_mrrn"><img src="Close.png" /></button>
+      <div class="text1_mrrn">Sign<span class="red_mrrn">&nbspIn</span></div>
 
-<form class="form_content_mrrn">
-<button class="closing_cross_mrrn"><img src="Close.png"></button>
-<div class="text1_mrrn">Sign<span class="red_mrrn">&nbspIn</span></div> 
-  
-<div class="error_massage_mrrn">
-<span>Your Password is incorrect. Please, try again</span>
-</div>
-    
-  <div class="title_standart_mrrn">Name</div>
-  <div class="input_standart_mrrn">
-  <input type="text" name="name" placeholder="Type name…">
-  </div>
-  
-  <div class="qestion_mrrn"><div class="title_standart_mrrn">Password</div><a class="button_link_mrrn">Forgot Password?</a></div>
-  <div class="input_standart_error_mrrn">
-      <input type="password" placeholder="Type password…" id="p_i">
-      <div class="eyeicon"><input type="checkbox" class="p_i_chckbx_mrrn" onclick="showPassword()"><img src="eye.png"><div class="eyeline" id="eyeline"></div></div> 
+      <div class="error_massage_mrrn">
+        <span>Your Password is incorrect. Please, try again</span>
       </div>
-  
-  <div class="form_buttons_mrrn" ><button class="color_button_mrrn">Sign In</button></div>
-  <div class="bottom_qestion_mrrn">Dont have an account?<a class="button_link_mrrn">Sign Up</a></div>
- 
-</form>
-</body>
+
+      <div class="title_standart_mrrn">Name</div>
+      <div class="input_standart_mrrn">
+        <input type="text" name="name" placeholder="Type name…" />
+      </div>
+
+      <div class="qestion_mrrn">
+        <div class="title_standart_mrrn">Password</div>
+        <a class="button_link_mrrn">Forgot Password?</a>
+      </div>
+      <div class="input_standart_error_mrrn">
+        <input type="password" placeholder="Type password…" id="p_i" />
+        <div class="eyeicon">
+          <input
+            type="checkbox"
+            class="p_i_chckbx_mrrn"
+            onclick="showPassword()"
+          /><img src="eye.png" />
+          <div class="eyeline" id="eyeline"></div>
+        </div>
+      </div>
+
+      <div class="form_buttons_mrrn">
+        <button class="color_button_mrrn">Sign In</button>
+      </div>
+      <div class="bottom_qestion_mrrn">
+        Dont have an account?<a class="button_link_mrrn">Sign Up</a>
+      </div>
+    </form>
+  </body>
 </html>
